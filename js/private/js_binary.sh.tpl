@@ -379,6 +379,7 @@ if [ "${JS_BINARY__LOG_INFO:-}" ]; then
     logf_info "js_binary RUNFILES %s" "${JS_BINARY__RUNFILES:-}"
     logf_info "js_binary EXECROOT %s" "${JS_BINARY__EXECROOT:-}"
     logf_info "PWD %s" "$PWD"
+    logf_info "tf %s" "$(which terraform)"
 fi
 
 # ==============================================================================
